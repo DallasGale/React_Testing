@@ -1,6 +1,6 @@
-This is a ReactJS project focusing on testing.
+ReactJS project focusing on testing.
 
-##Tests to explore include:
+## Tests to explore include:
 
 - Unit Tests
 *Individual functions by supplying input and expecting an output.*
@@ -11,7 +11,7 @@ This is a ReactJS project focusing on testing.
 - UI Tests
 *Functional scenarios by controlling the browser/website to ensure expected behaviour.*
 
-###Test suite
+### Test suite
 
 [https://jestjs.io/](Jest)
 
