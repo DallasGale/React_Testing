@@ -1,4 +1,4 @@
-ReactJS project focusing on testing.
+# ReactJS project focusing on testing.
 
 ## Tests to explore include:
 
