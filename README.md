@@ -20,4 +20,4 @@ Functional scenarios by controlling the browser/website to ensure expected behav
 
 
 [https://airbnb.io/projects/enzyme/](Enzyme - JavaScript Testing utilities for React)
-"Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output." - 
+*Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.* 
