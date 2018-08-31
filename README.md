@@ -4,6 +4,15 @@
 
 ### Unit Tests
 Individual functions by supplying input and expecting an output.
+```javascript
+const convertStringToLowerCase = string => (
+  string.toLowerCase()
+);
+
+test('String should be converted to lowercase letters', () => {
+  expect(convertStringToLowerCase("TEST STRING")).toBe("test string");
+});
+```
 
 
 ### Integration Tests
@@ -22,3 +31,6 @@ Functional scenarios by controlling the browser/website to ensure expected behav
 [https://airbnb.io/projects/enzyme/](Enzyme - JavaScript Testing utilities for React)
 
 *Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.* 
+
+
+## Test structure style preferences:
