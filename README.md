@@ -5,6 +5,7 @@
 ### Unit Tests
 Individual functions by supplying input and expecting an output.
 ```javascript
+<!-- For example: Test a function that converts the string input to be output as lowercase -->
 const convertStringToLowerCase = string => (
   string.toLowerCase()
 );
