@@ -3,13 +3,16 @@ ReactJS project focusing on testing.
 ## Tests to explore include:
 
 ### Unit Tests
-**Individual functions by supplying input and expecting an output.**
+Individual functions by supplying input and expecting an output.
+
 
 ### Integration Tests
-**Component behaviour testing, including side effects.**
+Component behaviour testing, including side effects.
+
 
 ### UI Tests
-**Functional scenarios by controlling the browser/website to ensure expected behaviour.**
+Functional scenarios by controlling the browser/website to ensure expected behaviour.
+
 
 ## Test suite
 
