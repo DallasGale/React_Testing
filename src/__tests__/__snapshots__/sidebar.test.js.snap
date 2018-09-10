@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <ToggleSidebarContainer
+    click={[Function]}
+    open={false}
+  />
+  <Sidebar
+    styles={
+      Object {
+        "left": "-300px",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<button
+  className="css-1pa205l"
+  onClick={[Function]}
+>
+  &lt;
+</button>
+`;
+
+exports[`renders correctly again 1`] = `
+<div>
+  <button
+    class="css-1pa205l"
+  >
+    &gt;
+  </button>
+  <aside
+    class="css-199nexd"
+    style="left:-300px"
+  >
+    <nav>
+      Navigation
+    </nav>
+  </aside>
+</div>
+`;
