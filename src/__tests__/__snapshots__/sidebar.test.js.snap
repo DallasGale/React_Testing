@@ -1,28 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<SidebarComponent /> renders correctily 1`] = `
+<aside
+  className="css-1pp3ebs"
+>
+  <nav>
+    Navigation
+    <ul
+      className="css-zkg6nm"
+    >
+      <Links
+        key="0"
+        name="HOME"
+      />
+      <Links
+        key="1"
+        name="ABOUT"
+      />
+      <Links
+        key="2"
+        name="CONTACT"
+      />
+    </ul>
+  </nav>
+</aside>
+`;
+
 exports[`renders correctly 1`] = `
 <div>
   <ToggleSidebarContainer
     click={[Function]}
-    open={false}
+    open={true}
   />
   <Sidebar
     styles={
       Object {
-        "left": "-300px",
+        "left": "0",
       }
     }
   />
 </div>
-`;
-
-exports[`renders correctly 2`] = `
-<button
-  className="css-1pa205l"
-  onClick={[Function]}
->
-  &lt;
-</button>
 `;
 
 exports[`renders correctly again 1`] = `
@@ -30,14 +47,45 @@ exports[`renders correctly again 1`] = `
   <button
     class="css-1pa205l"
   >
-    &gt;
+    &lt;
   </button>
   <aside
-    class="css-199nexd"
-    style="left:-300px"
+    class="css-1pp3ebs"
+    style="left:0"
   >
     <nav>
       Navigation
+      <ul
+        class="css-zkg6nm"
+      >
+        <li
+          class="css-8wiwd4"
+        >
+          <a
+            href="home/"
+          >
+            HOME
+          </a>
+        </li>
+        <li
+          class="css-8wiwd4"
+        >
+          <a
+            href="about/"
+          >
+            ABOUT
+          </a>
+        </li>
+        <li
+          class="css-8wiwd4"
+        >
+          <a
+            href="contact/"
+          >
+            CONTACT
+          </a>
+        </li>
+      </ul>
     </nav>
   </aside>
 </div>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ToggleSidebarContainer from './toggleSidebar.container';
 import Sidebar from '../components/sidebar.component';
-import { css } from 'emotion';
 // import PropTypes from 'prop-types';
 
 class SidebarContainer extends Component {
@@ -9,7 +8,7 @@ class SidebarContainer extends Component {
   constructor() {
     super();
     this.state = {
-      sidebarOpen: false   
+      sidebarOpen: true   
     }
     this.handleSidebar = this.handleSidebar.bind(this);
     console.log(this.state.sidebarOpen);

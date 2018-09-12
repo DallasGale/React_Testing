@@ -1,4 +1,6 @@
 import Sidebar from '../containers/sidebar.container';
+import Links from '../components/links.component';
+import SidebarComponent from '../components/sidebar.component';
 import Toggle from '../components/toggle.component';
 // - - - - - - - - - - - - - - - - - - - - - 
 // using Enzyme to step through the DOM tree
@@ -24,29 +26,6 @@ it("renders correctly again", () => {
 });
 
 
-// Content ie Text
-
-it("displays text", () => {
-  const wrapper = mount(
-    <Sidebar click={ () => {} } open={ false } />
-  );
-
-  const text = wrapper.find('nav').text();
-
-  console.log(text);
-  expect(text).toEqual("Navigation");
-});
-
-
-// Functionality (toggle.component.js)
-
-it('renders correctly', () => {
-  const wrapper = shallow(
-    <Toggle click={ () => {} } label='<' />
-  );
-
-  expect(wrapper).toMatchSnapshot();
-});
 
 
 
@@ -63,3 +42,22 @@ it('responds to toggle click', () => {
 });
 
 
+
+
+describe('<SidebarComponent />', () => {
+  
+  it('renders correctily', () => {
+    const wrapper = shallow(<SidebarComponent />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('renders 3 <Links /> components', () => {
+    const wrapper = shallow(<SidebarComponent />);
+    expect(wrapper.find(Links).length).toBe(3);
+  });
+});
+
+
+
+
+ 
